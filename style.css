@@ -115,11 +115,12 @@ p{
   height: auto;
 }
 .row.top {
-  flex-grow: 3;
+  flex-grow: 1;
   /* height: 16%; */
 }
 .row.middle {
-  flex-grow: 10;
+  flex-grow: 2;
+  flex-basis: 60%;
   display: flex;
   flex-flow: column nowrap;
   align-items:stretch;
@@ -132,7 +133,7 @@ p{
 
 .row.bottom {
   flex-basis:2em;
-  flex-grow: 1;
+  /* flex-grow: 1; */
   /* max-height: 8%; */
   height: 1em;
 }
@@ -146,9 +147,8 @@ p{
   text-decoration: none;
   border-left: 5px solid #ffffff;
   padding: 0px;
-  margin: 0px;
+  margin: 0px 5px;
   padding-left: 3px;
-  margin-left: 5px;
 }
 .row.bottom a:hover{
   color: #00abab;
@@ -156,7 +156,8 @@ p{
   /* text-decoration: underline; */
 }
 .card{
-  padding: .5em 1em .5em 1.8em;
+  padding: .5em 1em 1em 1.8em;
+  /* margin-top: .5em; */
   border: 0;
   /* transition: height 1s; */
 }
@@ -166,12 +167,13 @@ p{
 }
 
 .card .content {
+  margin-top: 0em;
   height: 0;
   opacity: 0;
   overflow: hidden;
   z-index: 0;
   /* transform: translate3d(0,-10%,0); */
-  transition: opacity 1s, transform 1s, height 1s;
+  transition: opacity 1s, margin-top 1s, height 1s;
 }
 
 .card .content p {
@@ -180,11 +182,12 @@ p{
 }
 
 .card.open .content {
+  margin-top: 1em;
   height: 10em;
   /* min-height: 10em; */
   opacity: 1;
   /* transform: translate3d(0,0,0); */
-  transition: opacity 1s, transform 1s, height 1s;
+  transition: opacity 1s, margin-top 1s, height 1s;
 }
 .card .content p {
   transform: translate3d(0,0,0);
@@ -213,6 +216,7 @@ p.keywords{
   margin-left: -2px;
   line-height: 1.8em;
   font-size: .8em;
+  margin-bottom: 0;
 }
 .keywords span::before{
   content: "#";
@@ -284,15 +288,16 @@ p.keywords{
 
 @media (max-width: 768px) {
   h1{
-    font-size: 1.8em;
+    font-size: 1.2em;
+    margin-bottom: -.2em;
   }
   h2 {
     color: #00abab;
-    font-size: 1.2em;
+    font-size: 1em;
   }
   p{
-    font-size: .9em;
-    line-height: .9em;
+    font-size: .8em;
+    line-height: .8em;
   }
   .col-md-8{
     height: 65%;
@@ -300,7 +305,7 @@ p.keywords{
   .col-md-4{
     height: 35%;
     padding: .8em 0;
-  box-shadow: 0 -.3em 3em #64d2c3;
+    box-shadow: 0 -.3em 3em #64d2c3;
   }
   .col-md-4>.row{
     padding: 0 2em;
@@ -308,23 +313,38 @@ p.keywords{
   .row.top {
     /* height: 12%; */
     /* flex-shrink: 8; */
-    flex-basis: 18%;
+    /* flex-basis: 18%; */
+    /* flex-shrink: 2; */
     text-align: center;
+    flex-grow:0;
   }
   .row.middle {
+    flex-basis: 5em;
     /* max-height: 82%; */
+    flex-grow: 5;
     overflow: scroll;
     /* padding: .3em; */
+    padding-bottom: 1em;
   }
   .row.bottom {
-    height: 1em;
+    /* height: 1em; */
     flex-basis: 1em;
     text-align: center;
+    font-size: .8em;
+    line-height: .8em;
+    padding-bottom: .5em;
+  }
+  .row.bottom p{
+    margin: 0;
   }
 
   .card{
     /* padding: .5em 1em .5em 1.8em; */
     border: 0;
+    padding-bottom: .5em;
+  }
+  .card.open .content {
+    height: 8em;
   }
 
   .card .index{
@@ -353,7 +373,9 @@ p.keywords{
     display: flex;
     flex-flow: row wrap;
     justify-content: space-around;
-    margin-bottom: 1em;
+    margin-bottom: 0em;
+    line-height: 1em;
+    /* margin: .4em; */
   }
   .keywords span{
     display: inline-block;

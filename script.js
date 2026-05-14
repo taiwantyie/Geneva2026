@@ -250,7 +250,7 @@
             },
             {
                 index: 4,
-                title: '歐洲挺台健走協會 Team Taiwan 挺台大遊行',
+                title: 'Team Taiwan - Walk for Taiwan',
                 keyword: ['WalkingForTaiwan', 'WHO', 'WHA'],
                 location: 'Place des Nations → Quai Wilson',
                 address: 'Pl. des Nations, 1202 Genève',
@@ -355,7 +355,7 @@
             },
             {
                 index: 2,
-                title: '台灣臨床藥學會TSHP、世界藥學會「藥品供應論壇」',
+                title: 'Pharmacy Supply Forum',
                 keyword: ['PharmaceuticalSupply', 'PublicHealth', 'Forum'],
                 location: 'Geneva President Wilson Hotel, Ballroom',
                 address: 'Quai Wilson 47, 1211 Genève',

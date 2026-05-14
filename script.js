@@ -174,12 +174,12 @@
                 },
             },
             {
-                index: 2,
+                index: 1,
                 title: 'Traditional Medicine and Health Promotion from Taiwan\'s Perspective',
                 keyword: ['TraditionalMedicine', 'Workshop'],
                 location: 'Foound',
                 address: 'Rue Jean-Dassier 7, 1201 Genève',
-                id:'miniTaiwanDay',
+                id:'TraditionalMedicineWorkshop',
                 time: 'May 16, 13:30 - 14:30',
                 organisation: 'Taiwan Youth Initiatives in Europe',
                 contact: 'https://docs.google.com/forms/d/e/1FAIpQLSfOfku2xH1zcEU_t2pQstyYdn2qXY3OPXot6vjRxENBxBSgbA/viewform',
@@ -189,7 +189,7 @@
                 },
             },
             {
-                index: 3,
+                index: 2,
                 title: 'Taiwan Smart Medical & HealthTech Expo',
                 keyword: ['Tech', 'AI', 'Expo'],
                 location: 'Hotel President Wilson Hotel',
@@ -199,12 +199,12 @@
                 organisation: 'Taiwan External Trade Development Council',
                 contact: 'https://taiwancares.taitra.org.tw',
                 position: {
-                    lat: 46.21455204203814,
-                    lng: 6.151691794071859,
+                    lat: 46.214232826647304,
+                    lng: 6.15196374910857,
                 },
             },
             {
-                index: 4,
+                index: 2,
                 title: 'Taiwan Smart Medical & HealthTech Expo opening',
                 keyword: ['MedicalTech', 'AI', 'Opening'],
                 location: 'Hotel President Wilson Hotel',
@@ -214,12 +214,12 @@
                 organisation: 'Taiwan External Trade Development Council',
                 contact: 'https://taiwancares.taitra.org.tw',
                 position: {
-                    lat: 46.21455204203814,
-                    lng: 6.151691794071859,
+                    lat: 46.214232826647304,
+                    lng: 6.15196374910857,
                 },
             },
             {
-                index: 5,
+                index: 3,
                 title: 'Welcome Reception for Taiwanese Community',
                 keyword: ['Taiwan', 'WHA', 'WelcomeReception'],
                 location: 'Geneva Marriott Hotel',
@@ -234,7 +234,7 @@
                 },
             },
             {
-                index: 6,
+                index: 4,
                 title: 'WHO Walk the Talk',
                 keyword: ['WHO', 'WHA', 'WalkTheTalk'],
                 location: 'Place des Nations',
@@ -249,7 +249,7 @@
                 },
             },
             {
-                index: 7,
+                index: 4,
                 title: '歐洲挺台健走協會 Team Taiwan 挺台大遊行',
                 keyword: ['WalkingForTaiwan', 'WHO', 'WHA'],
                 location: 'Place des Nations → Quai Wilson',
@@ -264,7 +264,7 @@
                 },
             },
             {
-                index: 8,
+                index: 2,
                 title: 'Digital Health Forum: AI Governance and Digital Health Innovation',
                 keyword: ['DigitalHealth', 'AI', 'Forum'],
                 location: 'Geneva President Wilson Hotel',
@@ -279,7 +279,7 @@
                 },
             },
             {
-                index: 9,
+                index: 2,
                 title: 'Cancer Policy and Innovation: From Early Detection to Equitable Treatment',
                 keyword: ['CancerPolicy', 'Forum'],
                 location: 'Geneva President Wilson Hotel, Ballroom',
@@ -294,7 +294,7 @@
                 },
             },
             {
-                index: 10,
+                index: 2,
                 title: 'Global Health Diplomacy Forum',
                 keyword: ['GlobalHealth', 'DigitalHealth', 'YouthEmpowerment'],
                 location: 'Geneva President Wilson Hotel, Neptune Room',
@@ -309,7 +309,7 @@
                 },
             },
             {
-                index: 11,
+                index: 2,
                 title: 'Global Hepatitis C Elimination: Experience and the Road Ahead',
                 keyword: ['hepatitisC', 'Epidemiology', 'Forum'],
                 location: 'Geneva President Wilson Hotel, Ballroom',
@@ -324,7 +324,7 @@
                 },
             },
             {
-                index: 12,
+                index: 2,
                 title: 'Smart Healthcare Implementation and Public Health System Upgrading',
                 keyword: ['SmartHealthcare', 'PublicHealth', 'Forum'],
                 location: 'Geneva President Wilson Hotel, Ballroom',
@@ -339,7 +339,7 @@
                 },
             },
             {
-                index: 13,
+                index: 2,
                 title: '79th WHA Parallel Event: AI for Universal Health Coverage, and UHC at a Crossroads',
                 keyword: ['AI', 'UniversalHealthCoverage', 'Forum'],
                 location: 'Geneva President Wilson Hotel, Ballroom',
@@ -354,14 +354,14 @@
                 },
             },
             {
-                index: 14,
+                index: 2,
                 title: '台灣臨床藥學會TSHP、世界藥學會「藥品供應論壇」',
                 keyword: ['PharmaceuticalSupply', 'PublicHealth', 'Forum'],
                 location: 'Geneva President Wilson Hotel, Ballroom',
                 address: 'Quai Wilson 47, 1211 Genève',
                 id:'PharmaceuticalSupplyForum',
                 time: 'May 19, 14:30 - 17:30',
-                organisation: 'Taiwan Society of Health-System Pharmacists & 世界藥學會',
+                organisation: 'Taiwan Society of Health-System Pharmacists & The International Pharmaceutical Federation',
                 contact: 'https://www.tshp.org.tw/ehc-tshp/s/index.htm',
                 position: {
                     lat: 46.214232826647304,
@@ -369,7 +369,7 @@
                 },
             },
             {
-                index: 15,
+                index: 5,
                 title: 'Strengthening Medical Resilience: Bridging Healthcare Preparedness and Cross-border Disaster Emergency Response',
                 keyword: ['MedicalResilience', 'Forum'],
                 location: 'HUG Innovation Centre',

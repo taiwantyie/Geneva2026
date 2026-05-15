@@ -249,6 +249,21 @@
                 },
             },
             {
+                index: 5,
+                title: 'Two Decades: From the Streets to the Global Stage, TAIWAN',
+                keyword: ['WHO', 'Advocation', 'Exhibition'],
+                location: 'Geneva Cornavin Station Hall',
+                address: 'Pl. de Cornavin 7, 1201 Genève',
+                id:'twoDecades',
+                time: 'May 16, 15:00 - 17:30; May 17-18, 12:00 - 17:30',
+                organisation: 'The Taiwan United Nations Alliance',
+                contact: 'https://www.facebook.com/TAIUNANEWS/posts/pfbid0LCwrp69sqJoP4yhoXKZTooaVaj9Etc3GFgbDMQF2oNPm8mn7n5aapK7tZhHHk6N8l',
+                position: {
+                    lat: 46.210616009630385,
+                    lng: 6.143033795877999,
+                },
+            },
+            {
                 index: 4,
                 title: 'Team Taiwan - Walk for Taiwan',
                 keyword: ['WalkingForTaiwan', 'WHO', 'WHA'],
@@ -369,7 +384,7 @@
                 },
             },
             {
-                index: 5,
+                index: 6,
                 title: 'Strengthening Medical Resilience: Bridging Healthcare Preparedness and Cross-border Disaster Emergency Response',
                 keyword: ['MedicalResilience', 'Forum'],
                 location: 'HUG Innovation Centre',

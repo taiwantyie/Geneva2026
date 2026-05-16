@@ -251,7 +251,7 @@
             {
                 index: 5,
                 title: 'Two Decades: From the Streets to the Global Stage, TAIWAN',
-                keyword: ['WHO', 'Advocation', 'Exhibition'],
+                keyword: ['TaiwanInWHO', 'TaiwanCanHelp', 'Exhibition'],
                 location: 'Geneva Cornavin Station Hall',
                 address: 'Pl. de Cornavin 7, 1201 Genève',
                 id:'twoDecades',
